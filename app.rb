@@ -15,6 +15,7 @@ when "development", "production"
 end
 
 
+# The application class.
 class App < Sinatra::Base
 
   get "/" do
