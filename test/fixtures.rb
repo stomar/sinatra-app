@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-fixtures = Hash.new
+fixtures = {}
 
 fixtures[:items] = [
   { name: "item_one", created_at: Time.now },

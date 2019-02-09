@@ -2,7 +2,7 @@
 
 require_relative "../app"
 
-seeds = Hash.new
+seeds = {}
 
 seeds[:items] = [
   { name: "Item 1", created_at: Time.now },
