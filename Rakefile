@@ -2,7 +2,7 @@
 
 require "rake/testtask"
 
-task :default => [:test]
+task default: [:test]
 
 Rake::TestTask.new do |t|
   t.pattern = "test/**/test_*.rb"
@@ -17,7 +17,7 @@ end
 
 namespace :db do
   desc "Create the database and load the seed data"
-  task :setup => [:create, :seed]
+  task setup: [:create, :seed]
 
   desc "Create the database"
   task :create do
