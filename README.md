@@ -7,7 +7,7 @@ Features:
 
   * clear folder structure with db, lib, views, test, ...
   * Rake tasks for database setup (schema, seed data)
-  * testing with in-memory SQLite database and fixtures
+  * testing with in-memory SQLite database
 
 ## Setup Application
 

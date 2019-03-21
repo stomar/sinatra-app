@@ -14,7 +14,9 @@ describe "database" do
   end
 
   it "does find an existing item" do
-    DB[:items].where(name: "item_one").count.must_equal 1
+    create_item(name: "a_test_item")
+
+    DB[:items].where(name: "a_test_item").count.must_equal 1
   end
 
   it "does not find a nonexisting item" do
