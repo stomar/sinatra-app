@@ -20,7 +20,7 @@ describe "application" do
 
   it "shows the root page" do
     get "/"
-    last_response.status.must_equal 200
-    last_response.body.must_match %r{Sinatra Application}
+    _(last_response.status).must_equal 200
+    _(last_response.body).must_match %r{Sinatra Application}
   end
 end
