@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "sinatra"
 
-gem "rack", ">= 2.0.6"
+gem "rack", ">= 2.0.8"
 
 gem "sequel"
 gem "sqlite3"
