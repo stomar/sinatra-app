@@ -31,7 +31,7 @@ namespace :db do
 
   desc "Print out the database content"
   task :dump do
-    require_relative "app"
+    require_relative "db/connection"
 
     DB.tables.each do |table|
       puts "#{table}:"

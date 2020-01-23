@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../app"
+require_relative "connection"
 
 DB.create_table?(:items) do
   primary_key  :id
