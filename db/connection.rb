@@ -7,6 +7,6 @@ case env = ENV["RACK_ENV"] || "development"
 when "test"
   DB = Sequel.sqlite
 when "development", "production"
-  file = File.expand_path("#{File.dirname(__FILE__)}/#{env}.db")
+  file = File.expand_path("#{env}.db", __dir__)
   DB = Sequel.connect(ENV["DATABASE_URL"] || "sqlite:///#{file}")
 end
