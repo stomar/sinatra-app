@@ -6,6 +6,7 @@ require "rack/test"
 ENV["RACK_ENV"] = "test"
 
 require_relative "../db/schema"
+# require_relative "../db/models"
 require_relative "../app"
 
 

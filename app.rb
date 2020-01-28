@@ -3,7 +3,7 @@
 require "sinatra/base"
 
 require_relative "db/connection"
-# require_relative "lib/model"
+# require_relative "db/models"
 
 
 # The application class.
