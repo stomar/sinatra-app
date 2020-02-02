@@ -19,10 +19,10 @@ def teardown_database
 end
 
 def create_item(attributes = {})
-  default = {
-    name: "item",
+  defaults = {
+    name: "default",
     created_at: Time.now
   }
 
-  DB[:items].insert(default.merge(attributes))
+  DB[:items].insert(defaults.merge(attributes))
 end
