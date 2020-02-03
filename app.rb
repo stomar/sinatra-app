@@ -2,6 +2,8 @@
 
 require "sinatra/base"
 
+# require_relative "lib/helper"
+
 require_relative "db/connection"
 # require_relative "db/models"
 
