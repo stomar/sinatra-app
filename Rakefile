@@ -21,12 +21,12 @@ namespace :db do
 
   desc "Create the database"
   task :create do
-    ruby "./db/schema.rb"
+    require_relative "db/schema.rb"
   end
 
   desc "Load the seed data"
   task :seed do
-    ruby "./db/seeds.rb"
+    require_relative "db/seeds.rb"
   end
 
   desc "Print out the database content"
