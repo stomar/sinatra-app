@@ -1,21 +1,21 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    minitest (5.13.0)
+    minitest (5.14.4)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    rack (2.0.8)
-    rack-protection (2.0.8.1)
+    rack (2.2.3)
+    rack-protection (2.1.0)
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rake (13.0.1)
-    ruby2_keywords (0.0.2)
-    sequel (5.28.0)
-    sinatra (2.0.8.1)
+    rake (13.0.3)
+    ruby2_keywords (0.0.4)
+    sequel (5.44.0)
+    sinatra (2.1.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
       tilt (~> 2.0)
     sqlite3 (1.4.2)
     tilt (2.0.10)
@@ -33,4 +33,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   2.1.2
+   2.2.3
