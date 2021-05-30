@@ -9,6 +9,6 @@ end
 
 DB.create_table(:items) do
   primary_key :id
-  String :name
-  Time :created_at
+  String :name, null: false
+  Time :created_at, null: false
 end
