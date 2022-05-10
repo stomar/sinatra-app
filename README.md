@@ -1,6 +1,8 @@
 Sinatra Application
 ===================
 
+![CI](https://github.com/stomar/sinatra-app/actions/workflows/ci.yml/badge.svg)
+
 A basic Sinatra application template using Sequel, SQLite, and minitest specs.
 
 Features:
