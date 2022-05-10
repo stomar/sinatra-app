@@ -1,0 +1,77 @@
+# Enable all new cops.
+AllCops:
+  NewCops: enable
+
+# Allow extra blank lines.
+Layout/EmptyLines:
+  Enabled: false
+
+# Allow extra empty line at block body beginning.
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+# Allow extra empty line at class body beginning.
+Layout/EmptyLinesAroundClassBody:
+  EnforcedStyle: beginning_only
+
+# Allow extra empty line at module body beginning.
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+# Allow extra spacing.
+Layout/ExtraSpacing:
+  Enabled: false
+
+# No space before block parameters.
+Layout/SpaceInsideBlockBraces:
+  SpaceBeforeBlockParameters: false
+
+# Allow empty class for example file.
+Lint/EmptyClass:
+  Exclude:
+    - lib/helper.rb
+
+# Disable Metrics/BlockLength in test files.
+Metrics/BlockLength:
+  Exclude:
+    - "test/test_*.rb"
+
+# Use %Q() instead of %() for string percent literals.
+Style/BarePercentLiterals:
+  EnforcedStyle: percent_q
+
+# Do not enforce a specific string formatting method.
+Style/FormatString:
+  Enabled: false
+
+# Allow unnamed format string tokens.
+Style/FormatStringToken:
+  Enabled: false
+
+# Allow missing frozen string literal comment in some files.
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - config.ru
+    - Gemfile
+
+# Use Ruby 1.9 hash syntax.
+Style/HashSyntax:
+  EnforcedStyle: ruby19_no_mixed_keys
+
+# Allow parallel assignment.
+Style/ParallelAssignment:
+  Enabled: false
+
+# Allow %r{} for regular expressions in test files.
+# (To avoid ambiguous regexp literal warnings.)
+Style/RegexpLiteral:
+  Exclude:
+    - "test/test_*.rb"
+
+# Use double quotes for string literals.
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+# Do not enforce symbol arrays with %i, %I.
+Style/SymbolArray:
+  Enabled: false
