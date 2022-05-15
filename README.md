@@ -16,26 +16,25 @@ Features:
 1. Install dependencies:
 
    ``` sh
-   gem install bundler
    bundle install
    ```
 
 2. Setup database:
 
    ``` sh
-   rake db:setup
+   bundle exec rake db:setup
    ```
 
 3. Run tests:
 
    ``` sh
-   rake
+   bundle exec rake
    ```
 
 4. Launch server:
 
    ``` sh
-   rake serve
+   bundle exec rake serve
    ```
 
    or
