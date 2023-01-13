@@ -47,7 +47,7 @@ Features:
 
 ## License
 
-Copyright &copy; 2016-2022 Marcus Stollsteimer
+Copyright &copy; 2016-2023 Marcus Stollsteimer
 
 This is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 3 or later (GPLv3+),
