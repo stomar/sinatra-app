@@ -53,7 +53,7 @@ PLATFORMS
 DEPENDENCIES
   minitest
   puma
-  rack (>= 2.0.8)
+  rack
   rack-test
   rake
   rubocop
